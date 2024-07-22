@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BaymenCase.Redis\BeymenCase.Redis.csproj" />
+    <ProjectReference Include="..\BeymenCase.Common\BeymenCase.Common.csproj" />
+    <ProjectReference Include="..\BeymenCaseAPI.Application\BeymenCaseAPI.Application.csproj" />
+  </ItemGroup>
+
+</Project>
